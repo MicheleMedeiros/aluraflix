@@ -1,0 +1,118 @@
+/* =========== NAVBAR LOGO =========== */
+.navbar__logo img {
+    width: 13.75rem;
+}
+/* =========== /NAVBAR LOGO =========== */
+
+/* =============== EMPHASIS =============== */
+.emphasis {
+    width: 100%;
+    height: 34.625rem;
+}
+.emphasis--bg {
+    background-position: center;
+    background-size: cover;
+}
+.emphasis__info h1 {
+    font-size: 2.8125rem;
+    line-height: 3.25rem;
+    font-weight: 500;
+}
+.emphasis__info p {
+    font-size: 1.5rem;
+    line-height: 1.95rem;
+    font-weight: 400;
+}
+.emphasis__embed iframe {
+    width: 100%;
+}
+/* =============== /EMPHASIS =============== */
+
+/* ========= COLOR SUB-TITLE CATEGORY ======= */
+.color__subtitle--SpringGreen {
+    color: #00C86F;
+}
+.color__subtitle--YellowGreen {
+    color: #9CD33B;
+}
+.color__subtitle--LightSkyBlue {
+    color: #6BD1FF;
+}
+/* ========= COLOR SUB-TITLE CATEGORY ======= */
+
+/* ========== CAROUSEL CATEGORY ========= */
+.category h2 {
+    font-size: 2.5rem;
+    line-height: 3.055rem;
+}
+.carousel__card {
+    width: 18rem;
+    min-width: 18rem;
+}
+.carousel__card figure {
+    height: 11.125rem;
+}
+.carousel__card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.category__carousel .owl-stage {
+    display: flex;
+
+}
+/* ========== /CAROUSEL CATEGORY ========= */
+
+/* ======== BUTTON CAROUSEL CATEGORY ======= */
+.category__carousel {
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+.category__carousel .owl-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.category__carousel .owl-nav button {
+    width: 2.3125rem;
+    height: 2.3125rem;
+    position: absolute;
+    background-image: url(../imgs/icons/arrow.svg) !important;
+    background-repeat: no-repeat !important; 
+    background-color: transparent;
+    bottom: 100px;
+    border: 0;
+}
+.category__carousel .owl-nav span {
+    display: none;
+}
+.category__carousel .owl-prev {
+    left: -3.125rem; 
+}
+.category__carousel .owl-next {
+    right: -3.125rem;
+    transform: rotate(180deg);
+}
+.category__carousel .owl-prev.disabled, .category__carousel .owl-next.disabled {
+    opacity: .3;
+}
+
+/* ======== /BUTTON CAROUSEL CATEGORY ======= */
+
+/* ============= MEDIA QUERY ============ */
+@media(max-width: 1333px) {
+    .category__carousel .owl-prev {
+        left: 0; 
+    }
+    .category__carousel .owl-next {
+        right: 0;
+    }
+}
+@media(max-width: 375px) {
+    .emphasis {
+        height: 40.625rem;
+    }
+}
+/* ============= MEDIA QUERY ============ */
