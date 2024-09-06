@@ -9,3 +9,4 @@ Este projeto é uma aplicação web da Aluraflix utilizando tecnologias front-en
 ## Link do GitHub Pages
 
 Você pode visualizar o projeto ao vivo no [GitHub Pages](https://michelemedeiros.github.io/aluraflix/).
+
